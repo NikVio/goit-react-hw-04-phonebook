@@ -18,6 +18,7 @@ export const App = () => {
     }
     return [...initialItems];
   });
+
   const [filter, setFilter] = useState('');
 
   useEffect(() => {
